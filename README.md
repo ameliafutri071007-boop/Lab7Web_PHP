@@ -95,7 +95,7 @@ Laptop/PC, Visual Studio Code, PHP, XAMPP atau Laragon, dan web browser.
 
 **Penjelasan kode:** tanda `$` digunakan untuk menulis variabel. Operator `*` berarti perkalian dan `+` berarti penjumlahan. Kondisi `if/elseif/else` memilih predikat sesuai rentang nilai. `number_format()` mengatur tampilan angka menjadi dua angka desimal. `htmlspecialchars()` membantu mengamankan teks saat ditampilkan dalam HTML.
 
-![latihan2.png/ss/latihan2.png]
+![latihan2.png](ss/latihan2.png.png)
 
 **Perhitungan contoh:** (85 × 0,30) + (78 × 0,30) + (90 × 0,40) = 25,5 + 23,4 + 36 = **84,9**. Berdasarkan aturan pada kode, predikatnya **B**.
 
