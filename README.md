@@ -195,7 +195,12 @@ Laptop/PC, Visual Studio Code, PHP, XAMPP atau Laragon, dan web browser.
 ## J. Kesimpulan
 Praktikum ini memberikan pemahaman mengenai pemrograman server-side menggunakan PHP. Materi yang dipelajari meliputi sintaks PHP, variabel, operator, percabangan, array, perulangan, function, serta pengolahan form menggunakan GET dan POST. Melalui latihan dan mini project, dapat dipahami bahwa validasi di sisi server diperlukan untuk memastikan data sesuai ketentuan, sedangkan `htmlspecialchars()` membantu menjaga keamanan saat data ditampilkan ke halaman HTML. Dengan demikian, PHP dapat digunakan untuk membangun aplikasi web sederhana yang menerima, memproses, dan menampilkan data pengguna.
 
-## K. Referensi
+## K. Ringkasan Hasil Praktikum
+Selama melaksanakan Praktikum 7, saya telah mempelajari dasar-dasar pemrograman server-side menggunakan PHP. Praktikum ini membantu saya memahami cara menjalankan PHP melalui server lokal XAMPP, menggunakan variabel, operator, percabangan, perulangan, array, dan fungsi.
+Saya juga mempelajari penggunaan metode GET dan POST untuk mengirimkan data melalui formulir. Selain itu, saya mencoba menerapkan validasi input agar data yang dimasukkan sesuai dengan ketentuan serta menggunakan htmlspecialchars() untuk membantu mengamankan tampilan data.
+Pada bagian eksperimen, saya berhasil mencoba perhitungan nilai rata-rata, pencarian nama mahasiswa, format harga Rupiah, validasi NIM, dan penggunaan tombol reset. Melalui mini project, saya menerapkan formulir data mahasiswa dengan proses validasi di sisi server.
+
+## L. Referensi
 1. Modul Praktikum Pemrograman Web, Praktikum 7: Pemrograman Server-Side dengan PHP, Program Studi Teknik Informatika.
 2. PHP Manual – Getting Started: https://www.php.net/manual/en/getting-started.php
 3. PHP Manual – Variables: https://www.php.net/manual/en/language.variables.php
