@@ -99,43 +99,43 @@ Laptop/PC, Visual Studio Code, PHP, XAMPP atau Laragon, dan web browser.
 
 **Perhitungan contoh:** (85 × 0,30) + (78 × 0,30) + (90 × 0,40) = 25,5 + 23,4 + 36 = **84,9**. Berdasarkan aturan pada kode, predikatnya **B**.
 
-![hasil2.png/ss/hasil2.png]
+![hasil2.png](ss/hasil2.png.png)
 
 ### Latihan 3 – Perulangan dan Array
 **Tujuan:** menyimpan beberapa nama dalam array dan menampilkannya dengan perulangan.
 
 **Penjelasan kode:** array menyimpan banyak data dalam satu variabel. `foreach ($mahasiswa as $nama)` mengambil elemen array satu per satu. `<ol>` membuat daftar bernomor, sedangkan `<li>` menjadi item daftar. `htmlspecialchars()` digunakan saat nama ditampilkan.
 
-![latihan3.png/ss/latihan3.png]
+![latihan3.png](ss/latihan3.png.png)
 
-![hasil3.png/ss/hasil3.png]
+![hasil3.png](ss/hasil3.png.png)
 
 ### Latihan 4 – Membuat Function
 **Tujuan:** membuat fungsi untuk menjalankan proses yang dapat digunakan kembali.
 
 **Penjelasan kode:** `function` digunakan untuk mendefinisikan fungsi. Parameter adalah nilai masukan fungsi. `return` mengembalikan hasil perhitungan ke bagian program yang memanggil fungsi. `number_format()` menampilkan nominal Rupiah dengan pemisah ribuan.
 
-![latihan4.png/ss/latihan4.png]
+![latihan4.png](ss/latihan4.png.png)
 
-![hasil4.png/ss/hasil4.png]
+![hasil4.png](ss/hasil4.png.png)
 
 ### Latihan 5 – Memproses Form dengan GET
 **Tujuan:** menerima kata kunci melalui metode GET.
 
 **Penjelasan kode:** GET mengirim nilai melalui parameter URL. `$_GET` merupakan variabel khusus PHP untuk mengambil data GET. `isset()` memeriksa apakah parameter tersedia. `trim()` membersihkan spasi di awal dan akhir. `htmlspecialchars()` membantu mencegah input ditafsirkan sebagai HTML/script ketika ditampilkan.
 
-![latihan5.png/ss/latihan5.png]
+![latihan5.png](ss/latihan5.png.png)
 
-![hasil5.png/ss/hasil5.png]
+![hasil5.png](ss/hasil5.png.png)
 
 ### Latihan 6 – Memproses Form dengan POST
 **Tujuan:** mengirim nama dan program studi melalui POST.
 
 **Penjelasan kode:** POST mengirim data pada body permintaan, bukan menampilkannya sebagai parameter URL. `$_POST` digunakan untuk mengambil data tersebut. `$_SERVER["REQUEST_METHOD"]` mengetahui metode permintaan. `required` membantu pemeriksaan di browser, tetapi pemeriksaan PHP tetap diperlukan di server.
 
-![latihan6.png/ss/latihan6.png]
+![latihan6.png9]ss/latihan6.png.png)
 
-![hasil6.png/ss/hasil6.png]
+![hasil6.png](ss/hasil6.png.png)
 
 
 ### Latihan 7 – Pengolahan Data Sederhana
@@ -143,44 +143,44 @@ Laptop/PC, Visual Studio Code, PHP, XAMPP atau Laragon, dan web browser.
 
 **Penjelasan kode:** `is_numeric()` memeriksa apakah nilai merupakan angka. `ctype_digit()` memeriksa apakah nilai berisi digit angka bulat. `(float)` mengubah harga menjadi tipe desimal dan `(int)` mengubah jumlah menjadi bilangan bulat. `number_format()` membantu menampilkan nominal Rupiah.
 
-![latihan7.png/ss/latihan7.png]
+![latihan7.png](ss/latihan7.png.png)
 
-![hasil7.png/ss/hasil7.png]
+![hasil7.png](ss/hasil7.png.png)
 
 ## F. Mini Project – Aplikasi Formulir Data Mahasiswa
 **Tujuan:** membuat form yang menerima dan memvalidasi data mahasiswa.
 
 **Penjelasan kode:** array `$error` mengumpulkan pesan kesalahan agar semuanya dapat ditampilkan sekaligus. `filter_var()` memeriksa format email. `ctype_digit()` memeriksa bahwa NIM dan semester berisi angka sesuai ketentuan. `if (!$error)` berarti data ditampilkan hanya jika tidak ada kesalahan. Function `aman()` membungkus `htmlspecialchars()` agar proses pengamanan output dapat digunakan berulang.
 
-![mini.png/ss/mini.png]
-![hasil8.png/ss/hasil8.png]
+![mini.png](ss/mini.png.png)
+![hasil8.png](ss/hasil8.png.png)
 
 ## G. Eksperimen Mandiri
 1. TProgram ini digunakan untuk menghitung nilai rata-rata dari tiga komponen nilai. Ketiga nilai dijumlahkan, kemudian dibagi tiga. Hasil perhitungan ditampilkan sebagai nilai rata-rata.
 
-![mandiri1.png/ss/mandiri1.png]
-![hasil9.png/ss/hasil9.png]
+![mandiri1.png](ss/mandiri1.png.png)
+![hasil9.png](ss/hasil9.png.png)
 
 2. Program ini digunakan untuk mencari nama mahasiswa dari sebuah array. Pengguna memasukkan nama melalui form, kemudian PHP memeriksa apakah nama tersebut tersedia dalam daftar. Proses pencarian menggunakan metode GET.
 
-![mandiri2.png/ss/mandiri2.png]
-![hasil10.png/ss/hasil10.png]
-![hasil11.png/ss/hasil11.png]
+![mandiri2.png](ss/mandiri2.png.png)
+![hasil10.png](ss/hasil10.png.png)
+![hasil11.png](ss/hasil11.png.png)
 
 3. Program ini menggunakan function untuk mengubah angka menjadi format mata uang Rupiah. Dengan menggunakan number_format(), angka ditampilkan dengan pemisah ribuan sehingga lebih mudah dibaca.
 
-![mandiri3.png/ss/mandiri3.png]
-![hasil12.png/ss/hasil12.png]
+![mandiri3.png](ss/mandiri3.png.png)
+![hasil12.png](ss/hasil12.png.png)
 
 4. Program ini digunakan untuk memeriksa apakah NIM hanya terdiri dari angka dan memiliki panjang sesuai ketentuan. Validasi dilakukan menggunakan ctype_digit() dan strlen() agar NIM yang dimasukkan sesuai aturan.
 
-![mandiri4.png/ss/mandiri4.png]
-![hasil13.png/ss/hasil13.png]
+![mandiri4.png](ss/mandiri4.png.png)
+![hasil13.png](ss/hasil13.png.png)
 
 5. Program ini menambahkan tombol reset untuk mengosongkan kembali kolom input pada form. Berbeda dengan tombol submit yang mengirimkan data ke server, tombol reset hanya mengembalikan isian form ke kondisi awal tanpa memproses ulang data di server.
 
-![mandiri5.png/ss/mandiri5.png]
-![hasil14.png/ss/hasil14.png]
+![mandiri5.png](ss/mandiri5.png.png)
+![hasil14.png](ss/hasil14.png.png)
 
 
 ## I. Jawaban Pertanyaan Evaluasi
