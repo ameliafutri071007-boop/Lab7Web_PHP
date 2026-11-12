@@ -88,7 +88,7 @@ Laptop/PC, Visual Studio Code, PHP, XAMPP atau Laragon, dan web browser.
 
 **Hasil yang diharapkan:** muncul tulisan “Belajar PHP”, “PHP berhasil dijalankan”, dan waktu server. Kode PHP tidak terlihat sebagai teks mentah.
 
-![hasil1.png.png/ss/hasil.png.png]
+![hasil1](ss/hasil1.png.png)
 
 ### Latihan 2 – Variabel, Operator, dan Percabangan
 **Tujuan:** menghitung nilai akhir berdasarkan bobot dan menentukan predikat.
