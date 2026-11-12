@@ -84,11 +84,11 @@ Laptop/PC, Visual Studio Code, PHP, XAMPP atau Laragon, dan web browser.
 7. Periksa tampilan halaman.
 
 **Penjelasan kode:** `<!DOCTYPE html>` menentukan dokumen HTML5. `h1` menampilkan judul. Tanda `<?php ... ?>` menandai bagian kode PHP. `echo` mencetak teks atau HTML ke halaman. `date("d-m-Y H:i:s")` mengambil waktu dari server.
-![index.png/ss/index.png]
+![index.png.png/ss/index.png.png]
 
 **Hasil yang diharapkan:** muncul tulisan “Belajar PHP”, “PHP berhasil dijalankan”, dan waktu server. Kode PHP tidak terlihat sebagai teks mentah.
 
-![hasil1.png/ss/hasil.png]
+![hasil1.png.png/ss/hasil.png.png]
 
 ### Latihan 2 – Variabel, Operator, dan Percabangan
 **Tujuan:** menghitung nilai akhir berdasarkan bobot dan menentukan predikat.
